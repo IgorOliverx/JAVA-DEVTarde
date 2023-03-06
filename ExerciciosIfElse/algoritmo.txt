@@ -1,0 +1,72 @@
+Exercicio 1 - Algoritmo 
+
+1. ler a primeira variável (valor1); 
+2. Ler a segunda variável (valor2);
+3. Se (valor1)>(valor2) então {
+Escreva (valor1 é maior);
+} senao{
+     escreva (o valor2 é maior);
+}
+
+
+Exercicio 2 - Algoritmo 
+
+Escreva um programa para ler o ano de nascimento de uma pessoa e
+escrever uma mensagem que diga se ela poderáou não votar este ano (nãoé
+necessárioconsiderar o mês em que ela nasceu).
+
+1. Pedir o Ano de Nascimento (sysout e scanner);
+2. Ler/criar a variável (anoNascimento);
+3.Criar variável boolean
+3. Se (anoNascimento<2007) então {
+    true
+
+}else {
+    false
+}
+
+if(true) então {
+    sysout("O cidadão está apto a votar)
+} else {
+    sysout("O cidadão não está apto a votar)
+}
+
+Exercicio 3
+
+3. Escreva um programa que verifique a validade de uma senha fornecida pelo
+usuário. A senha válida é o número 1234. Devem ser impressas as seguintes
+mensagens:
+ACESSO PERMITIDO caso a senha seja válida.
+ACESSO NEGADO caso a senha seja inválida.
+
+1.Peça uma Senha (sysout e scanner)
+2. Determine se a senha é verdadeira ou falsa (boolean/métrica = 1234)
+if(true) {
+    sysout("Acesso permitido)
+}else {
+    sysout("Acesso negado")
+}
+
+
+Exercicio 4
+
+As maçãs custam R$ 0,30 cada se forem compradas menos do que uma dúzia,
+e R$0,25 se forem compradas pelo menos doze. Escreva um programa que leia
+o número de maçãs compradas, calcule e escreva o valor total dacompra.
+
+1.Peça que digite quantas maças o consumidor quer
+2.Determine/crie as varíaveis (maças) (preçomaça)
+3. exibir na tela o preço individual de cada maça dependendo da quantidade compradas
+4. se (maças>=12) {
+    então (maças*0,25)
+} senão {
+    (maças*0,30)
+}
+
+Exercicio 5
+
+5. Escreva um programa para ler 3 valores inteiros (considere que não serão
+lidos valores iguais) e escrevê-los em ordem crescente.
+
+1. Peça 3 valores diferentes (sysout e scanner);
+3! - número de combinações possíveis - então preciso de 3 if-else

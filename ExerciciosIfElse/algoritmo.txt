@@ -70,3 +70,59 @@ lidos valores iguais) e escrevê-los em ordem crescente.
 
 1. Peça 3 valores diferentes (sysout e scanner);
 3! - número de combinações possíveis - então preciso de 3 if-else
+
+
+Exercicio 6
+
+Segui os mesmos princípios do exercicio anterior, mas com a possibilidade reduzida, consequentemente tive uma facilidade em relação ao desenvolver o código;
+
+Exercicio 7
+
+1. Peça dois valores em Double que se denominarão como nota 1 e 2 e posteriormente a média aritmética;
+APROVAÇÃO POR NOTA;
+2.Se a nota>50 então APROVADO 
+3.Se a nota<50 então REPROVADO 
+
+
+2. Peça dois valores em Double que se denominarão como Frequência
+APROVAÇÃO POR NOTA;
+1.Se a Fraquência>75 então APROVADO 
+2.Se a Fraquência<75 então REPROVADO
+
+
+
+3. Se o aluno está APROVADO EM "nota" e "freq" então APROVADO; SE NÃO REPROVADO
+
+
+//Lista extra IF-ELSE
+
+Exercício 8
+
+ Escreva um programa em Java que recebe um inteiro e diga se é par ou ímpar
+
+
+- Pensei em uma estrutura para determinar se o número é impar ou Parabéns
+SE ele for divisível por 2, então ele é par SENÃO ele é impar
+
+- Usarei a varíavel INT
+// O pensamento usado estava ligeramente correto - Usei o % para indicar o resto da divisão. Tentei colocar como num%2 = 0 mas o programa não lia, então resolvi de outra forma!
+
+
+Exercicio 9
+
+Desafio 1: Crie um programa que recebe uma nota ( pela classe Scanner) e checa se você passou direto, ficou de recuperação ou foi reprovado na matéria.
+A regra é a seguinte:
+Nota 7 ou mais: passou direto
+Entre 5 e 7: têm direito de fazer uma prova de recuperação
+Abaixo de 5: reprovado direto
+
+
+- Primeiro pedi a nota do aluno e determinei 3 estruturas de decisão de acordo com a nota. Note que nos dois "else" colocados, eles não recebem valores, justamente para poder atribuir mais do que uma condição no "IF"
+
+
+Exercicio 10 
+
+Pensei em fazer um programa que leia 
+
+Se a letra digitada for A OU E OU I OU O OU U ENTÃO ELA É VOGAL 
+
